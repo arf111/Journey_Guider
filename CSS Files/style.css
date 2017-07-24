@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    margin: 0;
+    background-image: url("study-abroad-scholarships.jpg");
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+
+}
+
+header{
+    background: rgba(0,0,0,0.3);
+    color: white;
+    padding: 8px 0px 6px 40px;
+    height: 50px;
+}
+
+header h1{
+    display: inline;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+nav ul{
+    display: inline;
+    padding-right: 20px;
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    float: left;
+    margin-left: 12px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#nav{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#image_word{
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding-top: 200px;
+    padding-left: 600px;
+}
+
+.homered{
+    background-color: #ff3e54;
+    padding: 30px 10px 16px 10px;
+}
+
+.homeblack:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+    padding: 30px 10px 16px 10px;
+}
+
+#destinations{
+    background: #250605;
+    height: 1100px;
+}
+
+#destinations h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    color: #ffad5b;
+    text-align: center;
+    margin-top: 240px;
+    padding-top: 30px;
+}
+
+#destinations ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#destinations ul li{
+    display: inline;
+    float: left;
+    padding-left: 20px;
+}
+
+#destinations a{
+    opacity: 0.5;
+}
+
+#imageKL:hover{
+    opacity: 1;
+}
+
+#imageBK:hover{
+    opacity: 1;
+}
+
+#imageDB:hover{
+    opacity: 1;
+}
+
+#imageAS:hover{
+    opacity: 1;
+}
+
+#imageSZ:hover{
+    opacity: 1;
+}
+
+#imageFR:hover{
+    opacity: 1;
+}
+
+#imageIT:hover{
+    opacity: 1;
+}
+
+#imageSP:hover{
+    opacity: 1;
+}
+
+
+/*images start*/
+
+#imageKL{
+    margin-left: 50px;
+    background: url("AS.jpg") no-repeat;
+    width: 400px;
+    height: 300px;
+    opacity: 0.9;
+    transition: all 0.3s ease-in;
+}
+
+#imageBK{
+    background: url("KL2.jpg") no-repeat;
+    width: 400px;
+    height: 300px;
+    opacity: 0.9;
+    transition: all 0.3s ease-in;
+}
+
+#imageDB{
+    background: url("singapore.jpg") no-repeat;
+    width: 400px;
+    height: 300px;
+    opacity: 0.9;
+    transition: all 0.3s ease-in;
+}
+
+#imageSP{
+    margin-left: 50px;
+    background: url("Paris.jpg") no-repeat;
+    width: 600px;
+    height: 300px;
+    opacity: 0.9;
+    transition: all 0.3s ease-in;
+}
+
+#imageAS{
+    background: url("GCanal.jpg") no-repeat;
+    width: 610px;
+    height: 300px;
+    opacity: 0.9;
+    transition: all 0.3s ease-in;
+}
+
+#imageSZ{
+    margin-left: 50px;
+    background: url("SZ.jpg") no-repeat;
+    width: 400px;
+    height: 300px;
+    opacity: 0.9;
+    transition: all 0.3s ease-in;
+}
+
+#imageIT{
+    background: url("br.jpg") no-repeat;
+    width: 400px;
+    height: 300px;
+    opacity: 0.9;
+    transition: all 0.3s ease-in;
+}
+
+#imageFR{
+    background: url("JK.jpg") no-repeat;
+    width: 400px;
+    height: 300px;
+    opacity: 0.9;
+    transition: all 0.3s ease-in;
+}
+
+/*---- footer ----*/
+footer {
+    width: 100%;
+    background-color: #250605;
+    padding: 60px 0px;
+}
+
+footer nav{
+    float: left;
+}
+
+footer nav ul li{
+    display : inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+
+footer nav ul li a{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+footer p{
+    font-family: Lato;
+    font-size: 15px;
+    color: white;
+    float: right;
+    padding-right: 40px;
+}

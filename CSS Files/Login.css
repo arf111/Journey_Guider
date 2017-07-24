@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    margin: 0;
+    background-image: url("login.jpg");
+    background-size: 100% 695px;
+    background-repeat: no-repeat;
+}
+header{
+    background: rgba(0,0,0,0.3);
+    color: white;
+    padding: 8px 0px 6px 40px;
+    height: 50px;
+
+}
+
+header h1{
+    display: inline;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+nav ul{
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    float: left;
+    margin-left: 12px;
+    padding: 0 5px 0;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.homered{
+    background-color: #1f49b5;
+    padding: 30px 10px 16px 10px;
+}
+
+.homeblack:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+    padding: 30px 10px 16px 10px;
+}
+#login{
+    height: 500px;
+    width: 400px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 80px;
+    float: right;
+    margin-top: 70px;
+
+
+}
+fieldset{
+    margin: 30px;
+    /*border: 2px groove ;*/
+}
+fieldset legend{
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+    letter-spacing: 7px;
+    font-size: 15px;
+    color: white;
+
+}
+#or{
+    margin: 5px 30px 5px;
+    height: 5px;
+    color: white;
+    letter-spacing: 7px;
+    font-size: 15px;
+}
+#line1{
+    width: 42.4%;
+    height: 1px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 10px;
+}
+#line2{
+    width: 42.5%;
+    height: 1px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 3px;
+}

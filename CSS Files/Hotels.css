@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    margin: 0;
+    background-image: url("hotel.jpg");
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    background-color: #250605;
+}
+
+header{
+    background: rgba(0,0,0,0.3);
+    color: white;
+    padding: 8px 0px 6px 40px;
+    height: 50px;
+}
+
+header h1{
+    display: inline;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+nav ul{
+    display: inline;
+
+    float: right;
+
+}
+#hotels{
+    margin : 50px;
+    padding-bottom: 20px;
+    font-family: "Berlin Sans FB Demi";
+    /*box-shadow:  0 0 50px 20px whitesmoke;*/
+    border-radius: 5px 50px 30px;
+}
+#hotels ul{
+
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    float: left;
+    margin-left: 12px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#nav{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#image_word{
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding-top: 190px;
+    padding-left: 490px;
+}
+
+.homered{
+    background-color: #ff3e54;
+    padding: 30px 10px 16px 10px;
+}
+
+.homeblack:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+    padding: 30px 10px 16px 10px;
+}
+
+#searchbox{
+    width: 1105px;
+    height: 60px;
+    margin-top: 290px;
+    margin-left: 80px;
+    background-color: transparent;
+    border: solid;
+    border-radius: 5px;
+}
+
+#countryname {
+    width: 230px;
+    height: 60px;
+    display: block;
+    float: left;
+    background-color: whitesmoke;
+
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#checkin{
+    width: 215px;
+    height: 60px;
+    display: inline-block;
+    float: left;
+    background-color: whitesmoke;
+
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#checkout{
+    width: 215px;
+    height: 60px;
+    display: inline-block;
+    float: left;
+    background-color: whitesmoke;
+
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#guest{
+    width: 215px;
+    height: 60px;
+    display: inline-block;
+    float: left;
+    background-color: whitesmoke;
+
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#search{
+    width: 180px;
+    height: 60px;
+    display: inline-block;
+    background-color: whitesmoke;
+
+    float: left;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#hotels{
+    background-color: whitesmoke;
+
+}
+#hotels ul{
+    list-style-type: none;
+}
+.hotelInfo {
+
+    margin: 20px;
+}
+.hotelPic{
+    float: left;
+    display: block;
+    margin-right: 60px;
+}
+.hoteldetails{
+    float: right;
+    display: block;
+
+}
+fieldset{
+    margin: 30px;
+    /*border: 2px groove ;*/
+}
+fieldset legend{
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+    letter-spacing: 10px;
+    font-size: 25px;
+
+}
+
+.list-hotel{
+    margin-left: 80px;
+   display: table-row;
+
+}
+.list-hotel a{
+
+}
+
+#SSHpic{
+    background: url("download.jpg") no-repeat;
+    width: 259px;
+    height: 194px;
+    transition: all 0.3s ease-in;
+}
+
+#LBpic{
+    background: url("LBPic.jpg") no-repeat;
+    width: 259px;
+    height: 194px;
+    transition: all 0.3s ease-in;
+}
+
+#WDpic{
+    background: url("WDPic.jpg") no-repeat;
+    width: 259px;
+    height: 194px;
+    transition: all 0.3s ease-in;
+}
+
+#RBWGpic{
+    background: url("RDPic.jpg") no-repeat;
+    width: 259px;
+    height: 194px;
+    transition: all 0.3s ease-in;
+}
+
+#PGpic{
+    background: url("PGPic.jpg") no-repeat;
+    width: 259px;
+    height: 194px;
+    transition: all 0.3s ease-in;
+}
+
+/*---- footer ----*/
+footer {
+    width: 100%;
+    background-color: dimgray;
+    padding: 60px 0px;
+}
+
+footer nav{
+    float: left;
+}
+
+footer nav ul li{
+    display : inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+
+footer nav ul li a{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+footer p{
+    font-family: Lato;
+    font-size: 15px;
+    color: white;
+    float: right;
+    padding-right: 40px;
+}
