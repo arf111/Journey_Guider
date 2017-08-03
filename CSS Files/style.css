@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-body{
+body {
     margin: 0;
     background-image: url("study-abroad-scholarships.jpg");
     background-size: 100% 600px;
@@ -10,16 +10,16 @@ body{
 
 }
 
-header{
-    background: rgba(0,0,0,0.3);
+header {
+    background: rgba(0, 0, 0, 0.3);
     color: white;
     padding: 8px 0px 6px 40px;
     height: 50px;
 }
 
-header h1{
+header h1 {
     display: inline;
-    font-family: 'Oswald',sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 32px;
     float: left;
@@ -27,13 +27,13 @@ header h1{
     margin-top: 0px;
 }
 
-nav ul{
+nav ul {
     display: inline;
     padding-right: 20px;
     float: right;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     list-style-type: none;
     color: white;
@@ -41,16 +41,16 @@ nav ul li{
     margin-left: 12px;
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
 }
 
-#nav{
+#nav {
     font-family: 'Montserrat', sans-serif;
 }
 
-#image_word{
+#image_word {
     color: white;
     font: bold 24px/45px Helvetica, Sans-Serif;
     font-size: 50px;
@@ -59,22 +59,22 @@ nav ul li a{
     padding-left: 600px;
 }
 
-.homered{
+.homered {
     background-color: #ff3e54;
     padding: 30px 10px 16px 10px;
 }
 
-.homeblack:hover{
+.homeblack:hover {
     background-color: rgba(0, 0, 0, 0.33);
     padding: 30px 10px 16px 10px;
 }
 
-#destinations{
+#destinations {
     background: #250605;
     height: 1100px;
 }
 
-#destinations h2{
+#destinations h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     font-weight: 200;
@@ -84,58 +84,57 @@ nav ul li a{
     padding-top: 30px;
 }
 
-#destinations ul{
+#destinations ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
 }
 
-#destinations ul li{
+#destinations ul li {
     display: inline;
     float: left;
     padding-left: 20px;
 }
 
-#destinations a{
+#destinations a {
     opacity: 0.5;
 }
 
-#imageKL:hover{
+#imageKL:hover {
     opacity: 1;
 }
 
-#imageBK:hover{
+#imageBK:hover {
     opacity: 1;
 }
 
-#imageDB:hover{
+#imageDB:hover {
     opacity: 1;
 }
 
-#imageAS:hover{
+#imageAS:hover {
     opacity: 1;
 }
 
-#imageSZ:hover{
+#imageSZ:hover {
     opacity: 1;
 }
 
-#imageFR:hover{
+#imageFR:hover {
     opacity: 1;
 }
 
-#imageIT:hover{
+#imageIT:hover {
     opacity: 1;
 }
 
-#imageSP:hover{
+#imageSP:hover {
     opacity: 1;
 }
-
 
 /*images start*/
 
-#imageKL{
+#imageKL {
     margin-left: 50px;
     background: url("AS.jpg") no-repeat;
     width: 400px;
@@ -144,7 +143,7 @@ nav ul li a{
     transition: all 0.3s ease-in;
 }
 
-#imageBK{
+#imageBK {
     background: url("KL2.jpg") no-repeat;
     width: 400px;
     height: 300px;
@@ -152,7 +151,7 @@ nav ul li a{
     transition: all 0.3s ease-in;
 }
 
-#imageDB{
+#imageDB {
     background: url("singapore.jpg") no-repeat;
     width: 400px;
     height: 300px;
@@ -160,7 +159,7 @@ nav ul li a{
     transition: all 0.3s ease-in;
 }
 
-#imageSP{
+#imageSP {
     margin-left: 50px;
     background: url("Paris.jpg") no-repeat;
     width: 600px;
@@ -169,7 +168,7 @@ nav ul li a{
     transition: all 0.3s ease-in;
 }
 
-#imageAS{
+#imageAS {
     background: url("GCanal.jpg") no-repeat;
     width: 610px;
     height: 300px;
@@ -177,7 +176,7 @@ nav ul li a{
     transition: all 0.3s ease-in;
 }
 
-#imageSZ{
+#imageSZ {
     margin-left: 50px;
     background: url("SZ.jpg") no-repeat;
     width: 400px;
@@ -186,7 +185,7 @@ nav ul li a{
     transition: all 0.3s ease-in;
 }
 
-#imageIT{
+#imageIT {
     background: url("br.jpg") no-repeat;
     width: 400px;
     height: 300px;
@@ -194,7 +193,7 @@ nav ul li a{
     transition: all 0.3s ease-in;
 }
 
-#imageFR{
+#imageFR {
     background: url("JK.jpg") no-repeat;
     width: 400px;
     height: 300px;
@@ -209,23 +208,23 @@ footer {
     padding: 60px 0px;
 }
 
-footer nav{
+footer nav {
     float: left;
 }
 
-footer nav ul li{
-    display : inline-block;
+footer nav ul li {
+    display: inline-block;
     margin-left: 20px;
     list-style: none;
 }
 
-footer nav ul li a{
+footer nav ul li a {
     font-family: Lato;
     font-weight: 400;
     font-size: 15px;
 }
 
-footer p{
+footer p {
     font-family: Lato;
     font-size: 15px;
     color: white;

@@ -16,23 +16,24 @@
     <nav>
         <h1>Journey Guider</h1>
         <ul id="nav">
-            <li><a class="homeblack" href="Home.html">HOME</a></li>
-            <li><a class="homeblack" href="Hotels.html">HOTELS</a></li>
-            <li><a class="homered" href="Around_the_world.html">AROUND THE WORLD</a></li>
-            <li><a class="homeblack" href="Home.html">ABOUT US</a>
-            <li><a class="homeblack" href="Login.html"><i class="fa fa-user-o" aria-hidden="true"></i>LOGIN</a></li>
+            <li><a class="homeblack" href="Home.php">HOME</a></li>
+            <li><a class="homeblack" href="Hotels.php">HOTELS</a></li>
+            <li><a class="homered" href="Around_the_world.php">AROUND THE WORLD</a></li>
+            <li><a class="homeblack" href="Home.php">ABOUT US</a>
+            <li><a class="homeblack" href="Login.php"><i class="fa fa-user-o" aria-hidden="true"></i>LOGIN</a></li>
 
         </ul>
     </nav>
 </header>
 
 <p id="image_word">
-  Immerse Yourself
+    Immerse Yourself
 </p>
 
 <div class="art">
     <article>
-        <iframe width="950" height="400" src="https://www.youtube.com/embed/uZ3tB1UO1hM" frameborder="0" allowfullscreen></iframe>
+        <iframe width="950" height="400" src="https://www.youtube.com/embed/uZ3tB1UO1hM" frameborder="0"
+                allowfullscreen></iframe>
 
         <p>A beautiful country with a rich cultural heritage that blends Asian and European influence, Malaysia offers
             many
@@ -93,10 +94,10 @@
     <div class="wrapper">
         <nav>
             <ul>
-                <li><a class="homered2" href="Home.html">HOME</a></li>
-                <li><a class="homeblack2" href="Hotels.html">HOTELS</a></li>
-                <li><a class="homeblack2" href="Around_the_world.html">AROUND THE WORLD</a></li>
-                <li><a class="homeblack2" href="Home.html">ABOUT US</a></li>
+                <li><a class="homered2" href="Home.php">HOME</a></li>
+                <li><a class="homeblack2" href="Hotels.php">HOTELS</a></li>
+                <li><a class="homeblack2" href="Around_the_world.php">AROUND THE WORLD</a></li>
+                <li><a class="homeblack2" href="Home.php">ABOUT US</a></li>
             </ul>
         </nav>
     </div>

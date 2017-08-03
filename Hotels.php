@@ -15,11 +15,11 @@
     <nav>
         <h1>Journey Guider</h1>
         <ul id="nav">
-            <li><a class="homeblack" href="Home.html">HOME</a></li>
-            <li><a class="homered" href="Hotels.html">HOTELS</a></li>
-            <li><a class="homeblack" href="Around_the_world.html">AROUND THE WORLD</a></li>
-            <li><a class="homeblack" href="Home.html">ABOUT US</a></li>
-            <li><a class="homeblack" href="Login.html"><i class="fa fa-user-o" aria-hidden="true"></i>LOGIN</a></li>
+            <li><a class="homeblack" href="Home.php">HOME</a></li>
+            <li><a class="homered" href="Hotels.php">HOTELS</a></li>
+            <li><a class="homeblack" href="Around_the_world.php">AROUND THE WORLD</a></li>
+            <li><a class="homeblack" href="Home.php">ABOUT US</a></li>
+            <li><a class="homeblack" href="Login.php"><i class="fa fa-user-o" aria-hidden="true"></i>LOGIN</a></li>
 
         </ul>
     </nav>
@@ -43,8 +43,6 @@
 
 <div id="hotels">
     <ul>
-
-
         <li class="list-hotel" id="h1">
             <fieldset>
                 <legend>Six Seasons Hotel</legend>
@@ -163,10 +161,10 @@
     <div class="wrapper">
         <nav>
             <ul>
-                <li><a class="homered2" href="Home.html">HOME</a></li>
-                <li><a class="homeblack2" href="Hotels.html">HOTELS</a></li>
-                <li><a class="homeblack2" href="Around_the_world.html">AROUND THE WORLD</a></li>
-                <li><a class="homeblack2" href="Home.html">ABOUT US</a></li>
+                <li><a class="homered2" href="Home.php">HOME</a></li>
+                <li><a class="homeblack2" href="Hotels.php">HOTELS</a></li>
+                <li><a class="homeblack2" href="Around_the_world.php">AROUND THE WORLD</a></li>
+                <li><a class="homeblack2" href="Home.php">ABOUT US</a></li>
             </ul>
         </nav>
     </div>

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-body{
+body {
     margin: 0;
     background-image: url("hotel.jpg");
     background-size: 100% 600px;
@@ -10,16 +10,16 @@ body{
     background-color: #250605;
 }
 
-header{
-    background: rgba(0,0,0,0.3);
+header {
+    background: rgba(0, 0, 0, 0.3);
     color: white;
     padding: 8px 0px 6px 40px;
     height: 50px;
 }
 
-header h1{
+header h1 {
     display: inline;
-    font-family: 'Oswald',sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 32px;
     float: left;
@@ -27,23 +27,26 @@ header h1{
     margin-top: 0px;
 }
 
-nav ul{
+nav ul {
     display: inline;
 
     float: right;
 
 }
-#hotels{
-    margin : 50px;
+
+#hotels {
+    margin: 50px;
     padding-bottom: 20px;
     font-family: "Berlin Sans FB Demi";
     /*box-shadow:  0 0 50px 20px whitesmoke;*/
     border-radius: 5px 50px 30px;
 }
-#hotels ul{
+
+#hotels ul {
 
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     list-style-type: none;
     color: white;
@@ -51,16 +54,16 @@ nav ul li{
     margin-left: 12px;
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
 }
 
-#nav{
+#nav {
     font-family: 'Montserrat', sans-serif;
 }
 
-#image_word{
+#image_word {
     color: white;
     font: bold 24px/45px Helvetica, Sans-Serif;
     font-size: 50px;
@@ -69,17 +72,17 @@ nav ul li a{
     padding-left: 490px;
 }
 
-.homered{
+.homered {
     background-color: #ff3e54;
     padding: 30px 10px 16px 10px;
 }
 
-.homeblack:hover{
+.homeblack:hover {
     background-color: rgba(0, 0, 0, 0.33);
     padding: 30px 10px 16px 10px;
 }
 
-#searchbox{
+#searchbox {
     width: 1105px;
     height: 60px;
     margin-top: 290px;
@@ -100,7 +103,8 @@ nav ul li a{
     border: 1px solid;
     border-radius: 5px;
 }
-#checkin{
+
+#checkin {
     width: 215px;
     height: 60px;
     display: inline-block;
@@ -112,7 +116,7 @@ nav ul li a{
     border-radius: 5px;
 }
 
-#checkout{
+#checkout {
     width: 215px;
     height: 60px;
     display: inline-block;
@@ -123,7 +127,8 @@ nav ul li a{
     border: 1px solid;
     border-radius: 5px;
 }
-#guest{
+
+#guest {
     width: 215px;
     height: 60px;
     display: inline-block;
@@ -134,7 +139,8 @@ nav ul li a{
     border: 1px solid;
     border-radius: 5px;
 }
-#search{
+
+#search {
     width: 180px;
     height: 60px;
     display: inline-block;
@@ -144,32 +150,39 @@ nav ul li a{
     border: 1px solid;
     border-radius: 5px;
 }
-#hotels{
+
+#hotels {
     background-color: whitesmoke;
 
 }
-#hotels ul{
+
+#hotels ul {
     list-style-type: none;
 }
+
 .hotelInfo {
 
     margin: 20px;
 }
-.hotelPic{
+
+.hotelPic {
     float: left;
     display: block;
     margin-right: 60px;
 }
-.hoteldetails{
+
+.hoteldetails {
     float: right;
     display: block;
 
 }
-fieldset{
+
+fieldset {
     margin: 30px;
     /*border: 2px groove ;*/
 }
-fieldset legend{
+
+fieldset legend {
     display: block;
     padding-left: 2px;
     padding-right: 2px;
@@ -179,44 +192,45 @@ fieldset legend{
 
 }
 
-.list-hotel{
+.list-hotel {
     margin-left: 80px;
-   display: table-row;
-
-}
-.list-hotel a{
+    display: table-row;
 
 }
 
-#SSHpic{
+.list-hotel a {
+
+}
+
+#SSHpic {
     background: url("download.jpg") no-repeat;
     width: 259px;
     height: 194px;
     transition: all 0.3s ease-in;
 }
 
-#LBpic{
+#LBpic {
     background: url("LBPic.jpg") no-repeat;
     width: 259px;
     height: 194px;
     transition: all 0.3s ease-in;
 }
 
-#WDpic{
+#WDpic {
     background: url("WDPic.jpg") no-repeat;
     width: 259px;
     height: 194px;
     transition: all 0.3s ease-in;
 }
 
-#RBWGpic{
+#RBWGpic {
     background: url("RDPic.jpg") no-repeat;
     width: 259px;
     height: 194px;
     transition: all 0.3s ease-in;
 }
 
-#PGpic{
+#PGpic {
     background: url("PGPic.jpg") no-repeat;
     width: 259px;
     height: 194px;
@@ -230,23 +244,23 @@ footer {
     padding: 60px 0px;
 }
 
-footer nav{
+footer nav {
     float: left;
 }
 
-footer nav ul li{
-    display : inline-block;
+footer nav ul li {
+    display: inline-block;
     margin-left: 20px;
     list-style: none;
 }
 
-footer nav ul li a{
+footer nav ul li a {
     font-family: Lato;
     font-weight: 400;
     font-size: 15px;
 }
 
-footer p{
+footer p {
     font-family: Lato;
     font-size: 15px;
     color: white;

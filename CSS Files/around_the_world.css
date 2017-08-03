@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-body{
+body {
     margin: 0;
     background-image: url('TLperson.jpg');
     background-size: 100% 600px;
@@ -10,22 +10,23 @@ body{
     background-color: #250605;
 }
 
-header{
-    background: rgba(0,0,0,0.3);
+header {
+    background: rgba(0, 0, 0, 0.3);
     color: white;
     padding: 8px 0px 6px 40px;
     height: 50px;
 }
-.fa-user-o{
+
+.fa-user-o {
 
     color: white;
     size: 5px;
 
 }
 
-header h1{
+header h1 {
     display: inline;
-    font-family: 'Oswald',sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 32px;
     float: left;
@@ -33,13 +34,13 @@ header h1{
     margin-top: 0px;
 }
 
-nav ul{
+nav ul {
     display: inline;
     padding-right: 20px;
     float: right;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     list-style-type: none;
     color: white;
@@ -47,16 +48,16 @@ nav ul li{
     margin-left: 12px;
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
 }
 
-#nav{
+#nav {
     font-family: 'Montserrat', sans-serif;
 }
 
-#image_word{
+#image_word {
     color: white;
     font: bold 24px/45px Helvetica, Sans-Serif;
     font-size: 50px;
@@ -65,21 +66,21 @@ nav ul li a{
     padding-left: 160px;
 }
 
-.homered{
+.homered {
     background-color: #ff3e54;
     padding: 30px 10px 16px 10px;
 }
 
-.homeblack:hover{
+.homeblack:hover {
     background-color: rgba(0, 0, 0, 0.33);
     padding: 30px 10px 16px 10px;
 }
 
-.art{
+.art {
     background-color: ghostwhite;
 }
 
-article{
+article {
     margin-top: 300px;
     margin-left: 170px;
     margin-right: 199px;
@@ -87,24 +88,23 @@ article{
     padding-bottom: 70px;
 }
 
-#CMpic{
+#CMpic {
     background: url('PHisland.jpg') no-repeat;
-    width:  950px;
+    width: 950px;
     height: 400px;
 }
 
-#LKpic{
+#LKpic {
     background: url("langkawi.jpg") no-repeat;
-    width:  950px;
+    width: 950px;
     height: 400px;
 }
 
-#CHpic{
+#CHpic {
     background: url("CMlands.jpg") no-repeat;
-    width:  950px;
+    width: 950px;
     height: 400px;
 }
-
 
 /*---- footer ----*/
 footer {
@@ -113,23 +113,23 @@ footer {
     padding: 60px 0px;
 }
 
-footer nav{
+footer nav {
     float: left;
 }
 
-footer nav ul li{
-    display : inline-block;
+footer nav ul li {
+    display: inline-block;
     margin-left: 20px;
     list-style: none;
 }
 
-footer nav ul li a{
+footer nav ul li a {
     font-family: Lato;
     font-weight: 400;
     font-size: 15px;
 }
 
-footer p{
+footer p {
     font-family: Lato;
     font-size: 15px;
     color: white;

@@ -15,11 +15,11 @@
     <nav>
         <h1>Journey Guider</h1>
         <ul id="nav">
-            <li><a class="homered" href="Home.html">HOME</a></li>
-            <li><a class="homeblack" href="Hotels.html">HOTELS</a></li>
-            <li><a class="homeblack" href="Around_the_world.html">AROUND THE WORLD</a></li>
-            <li><a class="homeblack" href="Home.html">ABOUT US</a></li>
-            <li><a class="homeblack" href="Login.html"><i class="fa fa-user-o" aria-hidden="true"></i>LOGIN</a></li>
+            <li><a class="homered" href="Home.php">HOME</a></li>
+            <li><a class="homeblack" href="Hotels.php">HOTELS</a></li>
+            <li><a class="homeblack" href="Around_the_world.php">AROUND THE WORLD</a></li>
+            <li><a class="homeblack" href="Home.php">ABOUT US</a></li>
+            <li><a class="homeblack" href="Login.php"><i class="fa fa-user-o" aria-hidden="true"></i>LOGIN</a></li>
 
         </ul>
     </nav>
@@ -33,7 +33,7 @@
     <h2>Popular destinations</h2><br>
     <ul>
         <li>
-            <a href="Around_the_world.html">
+            <a href="Around_the_world.php" name="Australia">
                 <div id="imageKL">
                     <p></p>
                 </div>
@@ -41,7 +41,7 @@
         </li>
 
         <li>
-            <a href="Around_the_world.html">
+            <a href="Around_the_world.php" name="Malaysia">
                 <div id="imageBK">
                     <p></p>
                 </div>
@@ -49,7 +49,7 @@
         </li>
 
         <li>
-            <a href="Around_the_world.html">
+            <a href="Around_the_world.php" name = "">
                 <div id="imageDB">
                     <p></p>
                 </div>
@@ -57,7 +57,7 @@
         </li>
 
         <li>
-            <a href="Around_the_world.html">
+            <a href="Around_the_world.php">
                 <div id="imageSP">
                     <p></p>
                 </div>
@@ -65,7 +65,7 @@
         </li>
 
         <li>
-            <a href="Around_the_world.html">
+            <a href="Around_the_world.php">
                 <div id="imageAS">
                     <p></p>
                 </div>
@@ -73,7 +73,7 @@
         </li>
 
         <li>
-            <a href="Around_the_world.html">
+            <a href="Around_the_world.php">
                 <div id="imageSZ">
                     <p></p>
                 </div>
@@ -81,7 +81,7 @@
         </li>
 
         <li>
-            <a href="Around_the_world.html">
+            <a href="Around_the_world.php">
                 <div id="imageFR">
                     <p></p>
                 </div>
@@ -89,7 +89,7 @@
         </li>
 
         <li>
-            <a href="Around_the_world.html">
+            <a href="Around_the_world.php">
                 <div id="imageIT">
                     <p></p>
                 </div>
@@ -100,13 +100,13 @@
 
 
 <footer>
-    <div class = "wrapper">
+    <div class="wrapper">
         <nav>
             <ul>
-            <li><a class="homered2" href="Home.html">HOME</a></li>
-            <li><a class="homeblack2" href="Hotels.html">HOTELS</a></li>
-            <li><a class="homeblack2" href="Around_the_world.html">AROUND THE WORLD</a></li>
-            <li><a class="homeblack2" href="Home.html">ABOUT US</a></li>
+                <li><a class="homered2" href="Home.php">HOME</a></li>
+                <li><a class="homeblack2" href="Hotels.php">HOTELS</a></li>
+                <li><a class="homeblack2" href="Around_the_world.php">AROUND THE WORLD</a></li>
+                <li><a class="homeblack2" href="Home.php">ABOUT US</a></li>
             </ul>
         </nav>
     </div>
