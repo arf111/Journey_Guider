@@ -32,69 +32,71 @@
 <div id="destinations">
     <h2>Popular destinations</h2><br>
     <ul>
-        <li>
-            <a href="Around_the_world.php" name="Australia">
-                <div id="imageKL">
-                    <p></p>
-                </div>
-            </a>
-        </li>
+        <form action="" method="post">
+            <li>
+                <a href="Around_the_world.php" name="Australia">
+                    <div id="imageKL">
+                        <p></p>
+                    </div>
+                </a>
+            </li>
 
-        <li>
-            <a href="Around_the_world.php" name="Malaysia">
-                <div id="imageBK">
-                    <p></p>
-                </div>
-            </a>
-        </li>
+            <li>
+                <a href="Around_the_world.php" name="Malaysia">
+                    <div id="imageBK">
+                        <p></p>
+                    </div>
+                </a>
+            </li>
 
-        <li>
-            <a href="Around_the_world.php" name = "">
-                <div id="imageDB">
-                    <p></p>
-                </div>
-            </a>
-        </li>
+            <li>
+                <a href="Around_the_world.php" name="Singapore">
+                    <div id="imageDB">
+                        <p></p>
+                    </div>
+                </a>
+            </li>
 
-        <li>
-            <a href="Around_the_world.php">
-                <div id="imageSP">
-                    <p></p>
-                </div>
-            </a>
-        </li>
+            <li>
+                <a href="Around_the_world.php" name="Paris">
+                    <div id="imageSP">
+                        <p></p>
+                    </div>
+                </a>
+            </li>
 
-        <li>
-            <a href="Around_the_world.php">
-                <div id="imageAS">
-                    <p></p>
-                </div>
-            </a>
-        </li>
+            <li>
+                <a href="Around_the_world.php" name="Italy">
+                    <div id="imageAS">
+                        <p></p>
+                    </div>
+                </a>
+            </li>
 
-        <li>
-            <a href="Around_the_world.php">
-                <div id="imageSZ">
-                    <p></p>
-                </div>
-            </a>
-        </li>
+            <li>
+                <a href="Around_the_world.php" name="Switzerland">
+                    <div id="imageSZ">
+                        <p></p>
+                    </div>
+                </a>
+            </li>
 
-        <li>
-            <a href="Around_the_world.php">
-                <div id="imageFR">
-                    <p></p>
-                </div>
-            </a>
-        </li>
+            <li>
+                <a href="Around_the_world.php" name="Japan">
+                    <div id="imageFR">
+                        <p></p>
+                    </div>
+                </a>
+            </li>
 
-        <li>
-            <a href="Around_the_world.php">
-                <div id="imageIT">
-                    <p></p>
-                </div>
-            </a>
-        </li>
+            <li>
+                <a href="Around_the_world.php" name="Brazil">
+                    <div id="imageIT">
+                        <p></p>
+                    </div>
+                </a>
+            </li>
+        </form>
     </ul>
 </div>
 

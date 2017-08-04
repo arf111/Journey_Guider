@@ -1,3 +1,8 @@
+<?php
+include 'config.php';
+global $connect;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
