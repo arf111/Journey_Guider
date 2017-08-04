@@ -10,6 +10,7 @@ if(isset($_POST['action'])) {
         $username = mysqli_real_escape_string($connect, $_POST['username']);
         $password = mysqli_real_escape_string($connect, $_POST['password']);
         echo $password;
+        echo md5($password);
         $sql = "SELECT Name, ID FROM" . " user WHERE Name = '" . $username . "' and Pass = '" .($password)  . "'";
         $strSQL = mysqli_query($connect, $sql);
         echo $sql;
@@ -55,6 +56,8 @@ echo $message;
                 $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 // set the PDO error mode to exception
                 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                echo $password;
+                echo md5($password);
                 $sql = "insert into" . " user (email, Pass, Name) " . "values('" . $email . "', '" .md5($password) . "', '" . $name . "')";
 
 // $sql = "insert into" ." user (emailID, password, userName, mName, lName, countrylives) "."values('"."labiba.kanij@gmail.com"."', '"."labiba"."', '" ."kanij"."',  NULL, NULL, NULL)";
