@@ -2,25 +2,26 @@
 include 'config.php';
 global $connect, $error, $message;
 session_start();
-
+//var_dump($_SESSION);
 
 if(isset($_POST['action'])) {
     if ($_POST['action'] == "signin") {
 
         $username = mysqli_real_escape_string($connect, $_POST['username']);
         $password = mysqli_real_escape_string($connect, $_POST['password']);
-        $sql = "SELECT Name, ID FROM" . " user WHERE Name = '" . $username . "' and Pass = '" .md5($password)  . "'";
+        echo $password;
+        $sql = "SELECT Name, ID FROM" . " user WHERE Name = '" . $username . "' and Pass = '" .($password)  . "'";
         $strSQL = mysqli_query($connect, $sql);
         echo $sql;
         $Results = mysqli_fetch_array($strSQL);
         ?>
 
 <?php
-
+echo count($Results);
         if(count($Results)>=1) {
 
 $message = $Results['Name']." Login Sucessfully!!";
-//echo $message;
+echo $message;
             $_SESSION['id'] = $Results['ID'];
             $_SESSION['name'] = $Results['Name'];
             $_SESSION['loggedin'] = true;

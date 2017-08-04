@@ -1,6 +1,10 @@
 <?php
-
+//session_start();
+//session_start();
 include 'user.php';
+//$_SESSION['loggedin'] = "";
+
+
 global $connect;
 ?>
 <!DOCTYPE html>
@@ -24,11 +28,13 @@ global $connect;
             <li><a class="homeblack" href="Hotels.php">HOTELS</a></li>
             <li><a class="homeblack" href="Around_the_world.php">AROUND THE WORLD</a></li>
             <li><a class="homeblack" href="Home.php">ABOUT US</a></li>
-            <li><?php if(!$_SESSION['loggedin']): ?><a class="homeblack" href="Login.php"><i class="fa fa-user-o" aria-hidden="true"></i>
+            <li><?php if((isset($_SESSION['loggedin']) && !$_SESSION['loggedin'])): ?><a class="homeblack" href="Login.php"><i class="fa fa-user-o" aria-hidden="true"></i>
                     Log In
 
-                    <?php elseif($_SESSION['loggedin']):  ?>
+                    <?php elseif(isset($_SESSION['loggedin'])&& $_SESSION['loggedin']):  ?>
                     <a class="homeblack" href="logut.php"><i class="fa fa-user-o" aria-hidden="true"></i>    <?php echo 'Log Out'//echo $_SESSION['name'];?>
+                        <?php else: ?> <a class="homeblack" href="Login.php"><i class="fa fa-user-o" aria-hidden="true"></i>
+                            Log In
                         <?php endif; ?></a></li>
 
 
