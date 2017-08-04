@@ -42,7 +42,7 @@ global $connect;
 
         <p>A beautiful country with a rich cultural heritage that blends Asian and European influence, Malaysia offers
             many
-            attractions. We list some of the best cultural and natural sights, venues and locations in Malaysia, from
+            attractions. We list for some of the best cultural and natural sights, venues and locations in Malaysia, from
             Kuala
             Lumpur’s finest Central Market to Malacca’s A Famosa fortress.
         </p>
