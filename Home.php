@@ -1,3 +1,8 @@
+<?php
+
+include 'user.php';
+global $connect;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +24,13 @@
             <li><a class="homeblack" href="Hotels.php">HOTELS</a></li>
             <li><a class="homeblack" href="Around_the_world.php">AROUND THE WORLD</a></li>
             <li><a class="homeblack" href="Home.php">ABOUT US</a></li>
-            <li><a class="homeblack" href="Login.php"><i class="fa fa-user-o" aria-hidden="true"></i>LOGIN</a></li>
+            <li><?php if(!$_SESSION['loggedin']): ?><a class="homeblack" href="Login.php"><i class="fa fa-user-o" aria-hidden="true"></i>
+                    Log In
+
+                    <?php elseif($_SESSION['loggedin']):  ?>
+                    <a class="homeblack" href="logut.php"><i class="fa fa-user-o" aria-hidden="true"></i>    <?php echo 'Log Out'//echo $_SESSION['name'];?>
+                        <?php endif; ?></a></li>
+
 
         </ul>
     </nav>
@@ -32,71 +43,87 @@
 <div id="destinations">
     <h2>Popular destinations</h2><br>
     <ul>
-        <form action="" method="post">
+
             <li>
                 <a href="Around_the_world.php" name="Australia">
+                    <form action="" method="post">
                     <div id="imageKL">
                         <p></p>
                     </div>
+                    </form>
                 </a>
             </li>
 
             <li>
                 <a href="Around_the_world.php" name="Malaysia">
+                    <form action="" method="post">
                     <div id="imageBK">
                         <p></p>
                     </div>
+                    </form>
                 </a>
             </li>
 
             <li>
                 <a href="Around_the_world.php" name="Singapore">
+                    <form action="" method="post">
                     <div id="imageDB">
                         <p></p>
                     </div>
+                    </form>
                 </a>
             </li>
 
             <li>
                 <a href="Around_the_world.php" name="Paris">
+                    <form action="" method="post">
                     <div id="imageSP">
                         <p></p>
                     </div>
+                    </form>
                 </a>
             </li>
 
             <li>
                 <a href="Around_the_world.php" name="Italy">
+                    <form action="" method="post">
                     <div id="imageAS">
                         <p></p>
                     </div>
+                    </form>
                 </a>
             </li>
 
             <li>
                 <a href="Around_the_world.php" name="Switzerland">
+                    <form action="" method="post">
                     <div id="imageSZ">
                         <p></p>
                     </div>
+                    </form>
                 </a>
             </li>
 
             <li>
                 <a href="Around_the_world.php" name="Japan">
+                    <form action="" method="post">
                     <div id="imageFR">
                         <p></p>
                     </div>
+                    </form>
                 </a>
             </li>
 
             <li>
                 <a href="Around_the_world.php" name="Brazil">
+                    <form action="" method="post">
                     <div id="imageIT">
                         <p></p>
                     </div>
+                    </form>
                 </a>
             </li>
-        </form>
+
     </ul>
 </div>
 

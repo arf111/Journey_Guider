@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include 'user.php';
 global $connect;
 ?>
 
@@ -25,7 +25,12 @@ global $connect;
             <li><a class="homeblack" href="Hotels.php">HOTELS</a></li>
             <li><a class="homered" href="Around_the_world.php">AROUND THE WORLD</a></li>
             <li><a class="homeblack" href="Home.php">ABOUT US</a>
-            <li><a class="homeblack" href="Login.php"><i class="fa fa-user-o" aria-hidden="true"></i>LOGIN</a></li>
+            <li><?php if(!$_SESSION['loggedin']): ?><a class="homeblack" href="Login.php"><i class="fa fa-user-o" aria-hidden="true"></i>
+                        Log In
+
+                    <?php elseif($_SESSION['loggedin']):  ?>
+                    <a class="homeblack" href="logut.php"><i class="fa fa-user-o" aria-hidden="true"></i>    <?php echo 'Log Out'//echo $_SESSION['name'];?>
+                    <?php endif; ?></a></li>
 
         </ul>
     </nav>
