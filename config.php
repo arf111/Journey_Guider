@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "onlinedb";
+$dbname = "journey_guider";
 // Create connection
 
 $connect = new mysqli($servername, $username, $password, $dbname);
