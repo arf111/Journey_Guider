@@ -1,11 +1,9 @@
 <?php
 include 'user.php';
 global $connect, $name, $id, $embed, $image;
-if(isset($_GET['id']))
-{
+if (isset($_GET['id'])) {
     $id = $_GET['id'];
-}
-else{
+} else {
     $id = 1;
 }
 ?>
@@ -68,32 +66,24 @@ $embed = $row['Embed'];
         }
         }
 
-
         $sql = "SELECT p.Name, p.Description, Image FROM" . " country as c inner join places as p on c.id = p.c_id WHERE c.ID = " . $id;
-        //echo $sql;
 
         if ($strSQL = mysqli_query($connect, $sql)) {
             $i = 0;
-            // echo ";fadfs";
-            $image[] = array(null, null, null);
-            $pname[] = array(null, null, null);
-            $pdes[] = array(null, null, null);
 
             while ($Results = mysqli_fetch_assoc($strSQL)) {
-                $image[$i] = $Results["Image"];
-                $pname[$i] = $Results["Name"];
-                $pdes[$i] = $Results["Description"];
+                $image = $Results["Image"];
+                $pname = $Results["Name"];
+                $pdes = $Results["Description"];
                 ?>
 
                 <h2>
-                    <?php echo $pname[$i] ?>
+                    <?php echo $pname ?>
                 </h2>
                 <p>
-                    <?php echo $pdes[$i]; ?>
+                    <?php echo $pdes ?>
                 </p>
-                <div class="pic"><img src=<?php echo $image[$i]; ?>></div>
-
-
+                <div class="pic"><img src=<?php echo $image ?>></div>
                 <?php
                 $i++;
             }
