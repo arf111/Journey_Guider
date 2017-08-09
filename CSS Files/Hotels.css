@@ -82,84 +82,20 @@ nav ul li a {
     padding: 30px 10px 16px 10px;
 }
 
-#searchbox {
-    width: 1105px;
-    height: 60px;
-    margin-top: 290px;
-    margin-left: 80px;
-    background-color: transparent;
-    border: solid;
-    border-radius: 5px;
-}
 
-#countryname {
-    width: 230px;
-    height: 60px;
-    display: block;
-    float: left;
-    background-color: whitesmoke;
 
-    margin-right: 10px;
-    border: 1px solid;
-    border-radius: 5px;
-}
-
-#checkin {
-    width: 215px;
-    height: 60px;
-    display: inline-block;
-    float: left;
-    background-color: whitesmoke;
-
-    margin-right: 10px;
-    border: 1px solid;
-    border-radius: 5px;
-}
-
-#checkout {
-    width: 215px;
-    height: 60px;
-    display: inline-block;
-    float: left;
-    background-color: whitesmoke;
-
-    margin-right: 10px;
-    border: 1px solid;
-    border-radius: 5px;
-}
-
-#guest {
-    width: 215px;
-    height: 60px;
-    display: inline-block;
-    float: left;
-    background-color: whitesmoke;
-
-    margin-right: 10px;
-    border: 1px solid;
-    border-radius: 5px;
-}
-
-#search {
-    width: 180px;
-    height: 60px;
-    display: inline-block;
-    background-color: whitesmoke;
-
-    float: left;
-    border: 1px solid;
-    border-radius: 5px;
-}
 
 #hotels {
     background-color: whitesmoke;
-
+    margin-top: 100px;
 }
 
 #hotels ul {
     list-style-type: none;
 }
-
+#country{
+    margin: 200px;
+}
 .hotelInfo {
 
     margin: 20px;
@@ -182,6 +118,9 @@ fieldset {
     /*border: 2px groove ;*/
 }
 
+legend{
+
+}
 fieldset legend {
     display: block;
     padding-left: 2px;

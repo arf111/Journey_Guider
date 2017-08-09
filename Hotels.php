@@ -1,6 +1,7 @@
 <?php
 include 'user.php';
-global $connect;
+global $connect, $cname;
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -40,7 +41,7 @@ global $connect;
 <p id="image_word">
     Tranquility
 </p>
-
+<!--
 <div id="searchbox">
 
     <div id="countryname">Country</div>
@@ -52,25 +53,81 @@ global $connect;
     </div>
 
 </div>
+-->
+
+<form id = "country">
+    <label for="cname">Select Country: </label>
+    <select name="selectCountry" id="cname">
+        <?php
+
+        $sql = "SELECT Name, ID FROM" . " country";
+        $student_query_result = mysqli_query($connect,$sql) or die(mysql_error());
+        if(mysqli_num_rows($student_query_result) > 0){
+        while ($row = mysqli_fetch_array($student_query_result))
+        { $cname = $row['Name'];
+            $id = $row['ID'];
+        ?>
+
+<option value = "<?php echo $id; ?>"><?php echo $cname?></option>
+        <?php  }}?>
+  </select>
+    <input type="submit" value="Show"/>
+</form>
+
+
+
 
 <div id="hotels">
     <ul>
-        <li class="list-hotel" id="h1">
+        <?php
+
+        if(isset($_GET['selectCountry']))
+        {
+            $var = $_GET['selectCountry'];
+        }
+        else{
+            $var =9;
+        }
+
+        $sql = "SELECT Name, Location, Image, Description FROM" . " hotels WHERE c_id = " . $var;
+        //echo $sql;
+
+        if ($strSQL = mysqli_query($connect, $sql)) {
+            $i = 0;
+// echo ";fadfs";
+            $name[] = array(null, null, null, null ,null);
+            $loc[] = array(null, null, null, null, null);
+            $img[] = array(null, null, null, null, null);
+            $des[] = array(null, null, null, null, null);
+            $j = 1;
+            while ($Results = mysqli_fetch_assoc($strSQL)) {
+                $name[$i] = $Results["Name"];
+                $loc[$i] = $Results["Location"];
+                $img[$i] = $Results["Image"];
+                $des[$i] = $Results["Description"];
+                if($j%2!=0){
+                    $align = "left";
+                }
+                else
+                {
+                    $align = "right";
+                }
+                ?>
+        <li class="list-hotel">
             <fieldset>
-                <legend>Six Seasons Hotel</legend>
+                <legend align= <?php echo $align;?> ><?php echo $name[$i];?></legend>
                 <div class="hotelInfo">
                     <a>
-                        <div id="SSHpic" class="hotelPic"></div>
+                        <div class="hotelPic" style= "width: 259px; height: 194px;" ><img src= <?php echo $img[$i];?>></div>
                         <div class="hotelDetails">
+
+                            <h3>Description</h3>
+                            <p><?php echo $des[$i];?></p></div>
                         <span>
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            Dhaka
+                            <?php echo $loc[$i];?>
 
 </span>
-                            <h3>Reviews</h3>
-                            <p>"First time Dhaka only hotel room, hotel coffeehouse for breakfast and to work. Cannot
-                                comment
-                                much."</p></div>
                     </a>
                 </div>
 
@@ -78,95 +135,14 @@ global $connect;
         </li>
 
 
-        <li class="list-hotel" id="h2">
-            <fieldset>
-                <legend align="right">Lakeshore Banani</legend>
 
-                <div class="hotelInfo">
-                    <a>
-                        <div id="LBpic" class="hotelPic"></div>
-                        <div class="hotelDetails">
-                        <span>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            Dhaka
-
-</span>
-                            <h3>Reviews</h3>
-                            <p>"The staff at Lakeshore Banani is nothing short of excellent. Always friendly, always
-                                willing to
-                                offer assistance. Very well located, close to Gulshan 1 and 2. Very impressed and will
-                                absolutely
-                                return. Thank you for a great first trip to Dhaka."</p>
-                        </div>
-                    </a>
-                </div>
-            </fieldset>
-        </li>
-
-        <li class="list-hotel" id="h3">
-            <fieldset>
-                <legend>Westin Dhaka</legend>
-                <div class="hotelInfo">
-                    <a>
-                        <div id="WDpic" class="hotelPic"></div>
-                        <div class="hotelDetails">
-
-                            <h3>Reviews</h3>
-                            <span>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            Dhaka
-
-</span>
-                            <p>"only think is missing no children activities. it would be good if you add children
-                                activities</p></div>
-
-                    </a>
-                </div>
-            </fieldset>
-        </li>
-
-        <li class="list-hotel" id="h4">
-            <fieldset>
-                <legend align="right">Radisson Blue Water Garden</legend>
-                <div class="hotelInfo">
-                    <a>
-                        <div id="RBWGpic" class="hotelPic"></div>
-                        <div class="hotelDetails">
-
-                            <h3>Reviews</h3>
-                            <p>"Excellent service during the stay from Jan 10 to Jan 12, 2017"</p></div>
-                        <span>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            Dhaka
-
-</span>
-                    </a>
-                </div>
-            </fieldset>
-        </li>
-
-        <li class="list-hotel" id="h5">
-            <fieldset>
-                <legend>Platinum Grand</legend>
-                <div class="hotelInfo">
-                    <a>
-                        <div id="PGpic" class="hotelPic"></div>
-                        <div class="hotelDetails">
-
-                            <h3>Reviews</h3>
-                            <p>"Good enough for business. Airport limousine service is excellent."</p></div>
-                        <span>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            Chittagong
-
-</span>
-                    </a>
-                </div>
-            </fieldset>
-        </li>
-
-
+        <?php
+$j++;
+        }
+        }
+        ?>
     </ul>
+
 </div>
 
 <footer>

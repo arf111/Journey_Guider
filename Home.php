@@ -51,7 +51,7 @@ global $connect;
     <ul>
 
             <li>
-                <a href="Around_the_world.php" name="Australia">
+                <a href="Around_the_world.php?id=1" name="Australia">
                     <form action="" method="post">
                     <div id="imageKL">
                         <p></p>
@@ -61,7 +61,7 @@ global $connect;
             </li>
 
             <li>
-                <a href="Around_the_world.php" name="Malaysia">
+                <a href="Around_the_world.php?id=2" name="Malaysia">
                     <form action="" method="post">
                     <div id="imageBK">
                         <p></p>
@@ -71,7 +71,7 @@ global $connect;
             </li>
 
             <li>
-                <a href="Around_the_world.php" name="Singapore">
+                <a href="Around_the_world.php?id=3" name="Singapore">
                     <form action="" method="post">
                     <div id="imageDB">
                         <p></p>
@@ -81,7 +81,7 @@ global $connect;
             </li>
 
             <li>
-                <a href="Around_the_world.php" name="Paris">
+                <a href="Around_the_world.php?id=4" name="Paris">
                     <form action="" method="post">
                     <div id="imageSP">
                         <p></p>
@@ -91,7 +91,7 @@ global $connect;
             </li>
 
             <li>
-                <a href="Around_the_world.php" name="Italy">
+                <a href="Around_the_world.php?id=5" name="Italy">
                     <form action="" method="post">
                     <div id="imageAS">
                         <p></p>
@@ -101,7 +101,7 @@ global $connect;
             </li>
 
             <li>
-                <a href="Around_the_world.php" name="Switzerland">
+                <a href="Around_the_world.php?id=6" name="Switzerland">
                     <form action="" method="post">
                     <div id="imageSZ">
                         <p></p>
@@ -111,7 +111,7 @@ global $connect;
             </li>
 
             <li>
-                <a href="Around_the_world.php" name="Japan">
+                <a href="Around_the_world.php?id=7" name="Japan">
                     <form action="" method="post">
                     <div id="imageFR">
                         <p></p>
@@ -121,7 +121,7 @@ global $connect;
             </li>
 
             <li>
-                <a href="Around_the_world.php" name="Brazil">
+                <a href="Around_the_world.php?id=8" name="Brazil">
                     <form action="" method="post">
                     <div id="imageIT">
                         <p></p>

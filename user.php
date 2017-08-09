@@ -10,7 +10,7 @@ if(isset($_POST['action'])) {
         $username = mysqli_real_escape_string($connect, $_POST['username']);
         $password = mysqli_real_escape_string($connect, $_POST['password']);
         echo $password;
-        echo md5($password);
+        //echo md5($password);
         $sql = "SELECT Name, ID FROM" . " user WHERE Name = '" . $username . "' and Pass = '" .($password)  . "'";
         $strSQL = mysqli_query($connect, $sql);
         echo $sql;
@@ -75,11 +75,13 @@ echo $message;
 // mysql_query( "insert into user (  userName, emailID, password) values('" ."'$name', '".$email."', '".md5($password)."')");
 //  mysql_query("insert into" ." user ( userName, emailID, password) values('" ."'$name', '".$email."', '".md5($password)."')");
 
-        echo $message;
+        //echo $message;
     }
 
 
 }
+
+
 
 ?>
 
