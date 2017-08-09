@@ -40,11 +40,10 @@ nav ul {
     font-family: "Berlin Sans FB Demi";
     /*box-shadow:  0 0 50px 20px whitesmoke;*/
     border-radius: 5px 50px 30px;
+    background-color: whitesmoke;
 }
 
-#hotels ul {
 
-}
 
 nav ul li {
     display: inline-block;
@@ -83,18 +82,50 @@ nav ul li a {
 }
 
 
-
-
-#hotels {
-    background-color: whitesmoke;
-    margin-top: 100px;
-}
-
 #hotels ul {
     list-style-type: none;
 }
 #country{
-    margin: 200px;
+    margin-top: 300px;
+    margin-left: 200px;
+
+}
+#country label{
+    font-size: 30px;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-family: "Century Gothic";
+}
+#cname{
+    font-size: 24px;
+    padding: 2px;
+    font-weight: bold;
+
+    color: black;
+    font-family: "Century Gothic";
+
+    width: 240px;
+    height: 34px;
+    overflow: hidden;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    box-shadow:inset 0 0 10px 0 rgba(0,0,0,0.6);
+    outline:none
+}
+#cname option{
+    box-shadow:inset 0 0 5px 0 rgba(0,0,0,0.6);
+    outline:none
+}
+
+form input{
+    width: 100px;
+    height: 40px;
+    font-size: 24px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin-left: 20px;
+    box-shadow:inset 0 0 10px 0 rgba(0,0,0,0.6);
+    outline:none
 }
 .hotelInfo {
 
@@ -141,40 +172,7 @@ fieldset legend {
 
 }
 
-#SSHpic {
-    background: url("download.jpg") no-repeat;
-    width: 259px;
-    height: 194px;
-    transition: all 0.3s ease-in;
-}
 
-#LBpic {
-    background: url("LBPic.jpg") no-repeat;
-    width: 259px;
-    height: 194px;
-    transition: all 0.3s ease-in;
-}
-
-#WDpic {
-    background: url("WDPic.jpg") no-repeat;
-    width: 259px;
-    height: 194px;
-    transition: all 0.3s ease-in;
-}
-
-#RBWGpic {
-    background: url("RDPic.jpg") no-repeat;
-    width: 259px;
-    height: 194px;
-    transition: all 0.3s ease-in;
-}
-
-#PGpic {
-    background: url("PGPic.jpg") no-repeat;
-    width: 259px;
-    height: 194px;
-    transition: all 0.3s ease-in;
-}
 
 /*---- footer ----*/
 footer {
