@@ -80,7 +80,6 @@ global $connect, $cname;
         $sql = "SELECT Name, Location, Image, Description FROM" . " hotels WHERE c_id = " . $var;
 
         if ($strSQL = mysqli_query($connect, $sql)) {
-            $i = 0;
             $j = 1;
             while ($Results = mysqli_fetch_assoc($strSQL)) {
                 $name = $Results["Name"];

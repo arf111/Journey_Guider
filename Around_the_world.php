@@ -69,14 +69,11 @@ $embed = $row['Embed'];
         $sql = "SELECT p.Name, p.Description, Image FROM" . " country as c inner join places as p on c.id = p.c_id WHERE c.ID = " . $id;
 
         if ($strSQL = mysqli_query($connect, $sql)) {
-            $i = 0;
-
             while ($Results = mysqli_fetch_assoc($strSQL)) {
                 $image = $Results["Image"];
                 $pname = $Results["Name"];
                 $pdes = $Results["Description"];
                 ?>
-
                 <h2>
                     <?php echo $pname ?>
                 </h2>
@@ -85,7 +82,6 @@ $embed = $row['Embed'];
                 </p>
                 <div class="pic"><img src=<?php echo $image ?>></div>
                 <?php
-                $i++;
             }
         }
         ?>

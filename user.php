@@ -14,7 +14,7 @@ if (isset($_POST['action'])) {
         $Results = mysqli_fetch_array($strSQL);
         ?>
         <?php
-        echo count($Results);
+        //echo count($Results);
         if (count($Results) >= 1) {
             $message = $Results['Name'] . " Login Sucessfull!";
             echo $message;
