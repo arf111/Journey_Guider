@@ -9,7 +9,7 @@ Important: 1) Need PHP 7.0 for Login page's works.
 
 Instructions:
 1) Home: 
-     #1: The project can be started by running "Home.php" 
+     #1: The project can be started by running "Home.php"
 
      #2: From there by scrolling down you can select a country to see it's popular destinations (For now Malaysia,Australia          and Singapore countries's popular destinations has been inserted in database. Select any three of these).
 
