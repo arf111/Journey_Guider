@@ -1,5 +1,7 @@
 Project Name: Journey Guider (Project based on travelling popular destinations and staying in hotels)
+
 Programming Language: HTML, CSS, PHP 7.0
+
 IDE : JetBrains PhpStorm 
 
 Important: 1) Need PHP 7.0 for Login page's works.
