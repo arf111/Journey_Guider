@@ -29,6 +29,7 @@ Instructions:
           password: 1234
        2) username: aref111
           password: 3456
+          
    #3: Type any of these (username, password) and the login page will show "username Login Sucessfull!" (In top-left corner). Now the user can view any page or he/she can log out by clicking the "Log out" button.
 
 
