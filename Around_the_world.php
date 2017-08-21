@@ -29,7 +29,7 @@ if (isset($_GET['id'])) {
             <li><a class="homeblack" href="Home.php">HOME</a></li>
             <li><a class="homeblack" href="Hotels.php">HOTELS</a></li>
             <li><a class="homered" href="Around_the_world.php">AROUND THE WORLD</a></li>
-            <li><a class="homeblack" href="Home.php">ABOUT US</a>
+            <li><a class="homeblack" href="About_us.php">ABOUT US</a>
             <li><?php if (isset($_SESSION['loggedin']) && !$_SESSION['loggedin']): ?><a class="homeblack"
                                                                                         href="Login.php"><i
                             class="fa fa-user-o" aria-hidden="true"></i>
@@ -95,7 +95,7 @@ $embed = $row['Embed'];
                 <li><a class="homered2" href="Home.php">HOME</a></li>
                 <li><a class="homeblack2" href="Hotels.php">HOTELS</a></li>
                 <li><a class="homeblack2" href="Around_the_world.php">AROUND THE WORLD</a></li>
-                <li><a class="homeblack2" href="Home.php">ABOUT US</a></li>
+                <li><a class="homeblack2" href="About_us.php">ABOUT US</a></li>
             </ul>
         </nav>
     </div>

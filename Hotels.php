@@ -23,7 +23,7 @@ global $connect, $cname;
             <li><a class="homeblack" href="Home.php">HOME</a></li>
             <li><a class="homered" href="Hotels.php">HOTELS</a></li>
             <li><a class="homeblack" href="Around_the_world.php">AROUND THE WORLD</a></li>
-            <li><a class="homeblack" href="Home.php">ABOUT US</a></li>
+            <li><a class="homeblack" href="About_us.php">ABOUT US</a></li>
             <li><?php if (isset($_SESSION['loggedin']) && !$_SESSION['loggedin']): ?><a class="homeblack"
                                                                                         href="Login.php"><i
                             class="fa fa-user-o" aria-hidden="true"></i>
@@ -129,7 +129,7 @@ global $connect, $cname;
                 <li><a class="homered2" href="Home.php">HOME</a></li>
                 <li><a class="homeblack2" href="Hotels.php">HOTELS</a></li>
                 <li><a class="homeblack2" href="Around_the_world.php">AROUND THE WORLD</a></li>
-                <li><a class="homeblack2" href="Home.php">ABOUT US</a></li>
+                <li><a class="homeblack2" href="About_us.php">ABOUT US</a></li>
             </ul>
         </nav>
     </div>
